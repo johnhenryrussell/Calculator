@@ -3,6 +3,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: aliceblue;
 }
 .calculator-body{
   border-color: black;
@@ -32,6 +33,7 @@ body{
   width: 70px;
   margin: 6px;
   font-size: 22px;
+  font-weight: bold;
 }
 
 .row {
