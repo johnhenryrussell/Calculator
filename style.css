@@ -3,7 +3,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: aliceblue;
+  background-color: rgb(126, 187, 240);
 }
 .calculator-body{
   border-color: black;
@@ -13,7 +13,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(25, 180, 252);
+  background-color: rgb(238, 171, 232);
   box-shadow: 10px 5px 5px grey;
 }
 
@@ -26,14 +26,18 @@ body{
   text-align: right;
   word-wrap: break-word;
   font-family: 'Karla', sans-serif;
+  box-shadow: 5px 5px 5px grey;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .numbers {
   height: 70px;
   width: 70px;
   margin: 6px;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: bold;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .row {
